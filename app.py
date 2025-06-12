@@ -22,6 +22,7 @@ def index():
             f"Saya memiliki keahlian di bidang {keahlian}. "
             f"Pengalaman kerja saya: {pengalaman}. "
             f"Berdasarkan data tersebut, tolong rekomendasikan pekerjaan yang cocok untuk saya beserta alasannya."
+            f"Berikan saya Link sumber/platform yang dapat memberikan  rekomendasi pekerjaan yang akurat"
         )
 
         response = model.generate_content(prompt)
